@@ -1,6 +1,9 @@
 
 # Sudden Vector Projection (SVP) Model
 
+⚠️ **LICENSE NOTICE**  
+This README documentation is licensed under MIT License. The SVP software itself is distributed under different terms - see [Disclaimer](#disclaimer) section for details.
+
 A computational tool for predicting mode specificity and product energy disposal in chemical reactions based on the Sudden Vector Projection model developed by Prof. Bin Jiang and Prof. Hua Guo.
 
 ## Overview
@@ -117,7 +120,13 @@ If using this software, please cite:
 3. Li & Guo, J. Phys. Chem. A 2014 ([10.1021/jp5004764](https://doi.org/10.1021/jp5004764))
 
 ## Disclaimer
-This code is provided "as-is" without warranty. Users are responsible for:
+...
+The SVP software is provided as-is with no formal license. Users should:
+- Obtain proper authorization from the original authors for commercial use
+- Cite the referenced publications when using results
+- Not redistribute modified versions of the software
+  
+And users are responsible for:
 - Validating results
 - Understanding model limitations
 - Proper input preparation
