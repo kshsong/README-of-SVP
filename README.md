@@ -39,6 +39,7 @@ Three sample cases are included:
 1. Combine both reactants (or products) into a single molecular system
 2. Separate them by sufficient distance (>10 Å recommended) to avoid possible molecular interactions
 3. Perform frequency calculation on this combined system
+4. One SVP calculation used for one reaction path
 
 ### General Workflow
 ```bash
@@ -53,7 +54,7 @@ Three sample cases are included:
    ```bash
    cp svp.x F+H2O/
    cd F+H2O
-   ./svp.x < F_H2O.txt > F_H2O.out
+   ./svp.x < fh2oinput-reactant.txt.txt > reactant.out
    ```
 
 ### Case 2: Gaussian/Molpro/VASP
@@ -73,7 +74,7 @@ Key parameters in `input.txt`:
 ## Important Notes
 ⚠️ **Limitations**
 - Only valid for transition-state controlled reactions
-- Separate calculations for reactant/product modes
+- Separate SVP calculations for reactants and products
 - Requires basic understanding of mode-specific chemistry
 
 ## Citation
